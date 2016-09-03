@@ -1,5 +1,7 @@
 <?php
 
+namespace dbLibrary;
+
 class Database{
 
 	public  $handler; 
