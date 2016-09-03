@@ -4,7 +4,7 @@ class Database{
 
 	public  $handler; 
 	private $connectionSettings;
-	private $configFile = __DIR__ . '/Config/list.json';
+	private $configFile = __DIR__ . '/DBConfig/list.json';
 
 	function __construct($connectionName){
 
