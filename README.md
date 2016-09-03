@@ -16,7 +16,7 @@ it was to make my life easier
 
 ## Installation
 
-It can mbe installed through composer
+It can be installed through composer
 ..
 
 ## License
