@@ -9,7 +9,7 @@ class Database{
 	private $connectionSettings;
 	private $configFile = __DIR__ . '/../../DBConfig/list.json';
 
-	function __construct($connectionParams){
+	function __construct($connectionName){
 
 
 		$this->getCongig($connectionName);
