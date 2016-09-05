@@ -7,9 +7,9 @@ class Database{
 
 	public  $handler; 
 	private $connectionSettings;
-	private $configFile = __DIR__ . '/../DBConfig/list.json';
+	private $configFile = __DIR__ . '/../../DBConfig/list.json';
 
-	function __construct($connectionName){
+	function __construct($connectionParams){
 
 
 		$this->getCongig($connectionName);
