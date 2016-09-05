@@ -103,7 +103,7 @@ class Database{
 
 /* Example
 
-$db = New Database;
+
 $db = New Database;
 $db->set("INSERT INTO test (id, name) VALUES (?, ?)",["8","three"]);
 
